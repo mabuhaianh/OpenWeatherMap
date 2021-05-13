@@ -1,0 +1,46 @@
+5:29:14 PM - ===============================================================
+5:29:14 PM - RUNNING TEST SUITE: 'Search-Weather-In-Your-City', 1 tests
+5:29:14 PM - ===============================================================
+5:29:14 PM -    
+5:29:26 PM -    
+5:29:26 PM - Running: 'Search Weather In Your Country' (1 of 1)
+5:29:26 PM -    
+5:29:26 PM -    Input searchKey: london
+5:29:27 PM -    Keyword 'london' on row '1' with Expected Outcome 'found' and Matching Items '5' ===> Passed
+5:29:27 PM -    Input searchKey: london,
+5:29:28 PM -    Keyword 'london,' on row '2' with Expected Outcome 'found' and Matching Items '5' ===> Passed
+5:29:28 PM -    Input searchKey: london,abcgbabc
+5:29:29 PM -    Keyword 'london,abcgbabc' on row '3' with Expected Outcome 'found' and Matching Items '5' ===> Passed
+5:29:29 PM -    Input searchKey: london,gb
+5:29:30 PM -    Keyword 'london,gb' on row '4' with Expected Outcome 'found' and Matching Items '1' ===> Passed
+5:29:30 PM -    Input searchKey: london,rr
+5:29:30 PM -    Keyword 'london,rr' on row '5' with Expected Outcome 'not found' and Matching Items '' ===> Passed
+5:29:30 PM -    Input searchKey: abc
+5:29:31 PM -    Keyword 'abc' on row '6' with Expected Outcome 'not found' and Matching Items '' ===> Passed
+5:29:31 PM -    Input searchKey: abc,
+5:29:32 PM -    Keyword 'abc,' on row '7' with Expected Outcome 'not found' and Matching Items '' ===> Passed
+5:29:32 PM -    Input searchKey: abc,abcgbabc
+5:29:33 PM -    Keyword 'abc,abcgbabc' on row '8' with Expected Outcome 'not found' and Matching Items '' ===> Passed
+5:29:33 PM -    Input searchKey: abc,gb
+5:29:34 PM -    Keyword 'abc,gb' on row '9' with Expected Outcome 'not found' and Matching Items '' ===> Passed
+5:29:34 PM -    Input searchKey: abc,rr
+5:29:34 PM -    Keyword 'abc,rr' on row '10' with Expected Outcome 'not found' and Matching Items '' ===> Passed
+5:29:34 PM -    Input searchKey: ,abcgbabc
+5:29:35 PM -    Keyword ',abcgbabc' on row '11' with Expected Outcome 'found' and Matching Items '5' ===> Passed
+5:29:35 PM -    Input searchKey: ,gb
+5:29:36 PM -    Keyword ',gb' on row '12' with Expected Outcome 'found' and Matching Items '5' ===> Passed
+5:29:36 PM -    Input searchKey: ,rr
+5:29:37 PM -    Keyword ',rr' on row '13' with Expected Outcome 'not found' and Matching Items '' ===> Passed
+5:29:37 PM -    Input searchKey: ,
+5:29:41 PM -    Keyword ',' on row '14' with Expected Outcome 'not found' and Matching Items '' ===> Failed
+5:29:41 PM -    Input searchKey: gb
+5:29:45 PM -    Keyword 'gb' on row '15' with Expected Outcome 'not found' and Matching Items '' ===> Failed
+5:29:45 PM -    Input searchKey: london@#
+5:29:48 PM -    Keyword 'london@#' on row '16' with Expected Outcome 'not found' and Matching Items '' ===> Failed
+5:29:48 PM -    
+5:29:48 PM - FAILED: 'Search Weather In Your Country', Exception: 'Row '14', Keyword ',': The message 'Not found. To make search more precise put the city's name, comma, 2-letter country code (ISO3166).' does not show 
+Row '15', Keyword 'gb': The message 'Not found. To make search more precise put the city's name, comma, 2-letter country code (ISO3166).' does not show 
+Row '16', Keyword 'london@#': The message 'Not found. To make search more precise put the city's name, comma, 2-letter country code (ISO3166).' does not show 
+' (Failed in 22.2948041s)
+5:29:48 PM -    
+5:29:48 PM - ---------------------------------------------------------------

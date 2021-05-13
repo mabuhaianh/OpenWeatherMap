@@ -89,7 +89,7 @@ namespace OpenWeatherMapAutomation {
 			SharedBase.Config.Headless = false;
 
 			List<String> suitesToRun = new List<String>();
-			suitesToRun.Add("search-Weather-In-Your-City");
+			suitesToRun.Add("Search-Weather-In-Your-City");
 
 			//
 			// Define Suites
@@ -98,7 +98,7 @@ namespace OpenWeatherMapAutomation {
 			List<TestSuite> testSuites = new List<TestSuite>();
 
 			//
-			// Clean Up Test Suite
+			// Search Weather In Your City Test Suite
 			//
 
 			SearchWeatherInYourCity searchWeatherInYourCity = new SearchWeatherInYourCity(browser);
