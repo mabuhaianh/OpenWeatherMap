@@ -1,0 +1,5 @@
+1. Install AutoIt: https://www.autoitscript.com/site/autoit/downloads/
+1. Edit UploadFile
+2. Change the upload file path (this file is used to upload and must be an image, because of using for both upload image and file): Send("D:\Automation\UploadFile\maxresdefault.jpg")
+3. Compile the UploadFile
+4. In CommonData.cs, change FileToUploadPath to the UploadFile.exe path

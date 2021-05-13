@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <baseUrl>https://openweathermap.org/</baseUrl>
+  <username>mabuhaianh@gmail.com</username>
+  <password>!Haianh11</password>
+  <logInternals>true</logInternals>
+</config>
